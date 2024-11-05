@@ -8,13 +8,16 @@ double area(double radius) {
 
 
 int main() {
-    double radius, circleArea, circleCircumference;
+    double radius, circleArea, circleCircumference,dia;
 
     printf("Enter the radius of the circle: ");
     scanf("%lf", &radius);
     circleArea = area(radius);
+    dia = radius*2;
     circleCircumference = circumference(radius);
      printf("Area of the circle: %.2lf\n", circleArea);
+     printf("diameter of the circle: ",dia);
+     
   
 
 
